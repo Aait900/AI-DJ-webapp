@@ -85,7 +85,7 @@ function draw() {
 		}
 	}
 
-	if(scoreLeftWrist > 0.2)
+	if(scoreLeftWrist > 0.1)
 	{
 		circle(leftWristX,leftWristY,20);
 		InNumberleftWristY = Number(leftWristY);
